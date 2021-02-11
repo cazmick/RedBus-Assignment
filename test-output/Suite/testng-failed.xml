@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestAction.ManageBookingTest">
+        <methods>
+          <include name="MyTicket"/>
+          <include name="SMS_Ticket"/>
+          <include name="closeBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="TicketCancel"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="RescheduleBooking"/>
+        </methods>
+      </class> <!-- TestAction.ManageBookingTest -->
+      <class name="TestAction.SearchTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="setExtent"/>
+          <include name="Sort"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- TestAction.SearchTest -->
+      <class name="TestAction.InvalidLoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- TestAction.InvalidLoginTest -->
+      <class name="TestAction.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- TestAction.LoginTest -->
+      <class name="TestAction.CallBackTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="CallBackForm"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- TestAction.CallBackTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

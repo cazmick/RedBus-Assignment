@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18544" started-at="2021-02-11T18:58:04 IST" finished-at="2021-02-11T18:58:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18544" started-at="2021-02-11T18:58:04 IST" finished-at="2021-02-11T18:58:23 IST">
+      <class name="TestAction.SearchTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:TestAction.SearchTest@11c9af63]" name="setExtent" is-config="true" duration-ms="116" started-at="2021-02-11T18:58:04 IST" finished-at="2021-02-11T18:58:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="ModifySearch()[pri:2, instance:TestAction.SearchTest@11c9af63]" name="ModifySearch" duration-ms="17379" started-at="2021-02-11T18:58:04 IST" finished-at="2021-02-11T18:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifySearch -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestAction.SearchTest@11c9af63]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2021-02-11T18:58:22 IST" finished-at="2021-02-11T18:58:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ModifySearch status=SUCCESS method=SearchTest.ModifySearch()[pri:2, instance:TestAction.SearchTest@11c9af63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:TestAction.SearchTest@11c9af63]" name="quitBrowser" is-config="true" duration-ms="673" started-at="2021-02-11T18:58:22 IST" finished-at="2021-02-11T18:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:TestAction.SearchTest@11c9af63]" name="endReport" is-config="true" duration-ms="329" started-at="2021-02-11T18:58:22 IST" finished-at="2021-02-11T18:58:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- TestAction.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
